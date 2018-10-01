@@ -1,1 +1,1 @@
-# Devoloper-type-quiz
+# Developer-type-quiz
