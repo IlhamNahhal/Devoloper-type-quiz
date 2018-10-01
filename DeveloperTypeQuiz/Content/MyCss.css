@@ -1,0 +1,129 @@
+﻿
+#bgImage{
+    
+              background-image : url(../images/bg3.jpg);
+              background-size: cover;
+              width: 100%;
+              height:100vh;
+              background-position:center;
+
+            }
+
+
+#mainQuiz {
+    position: absolute;
+    position :center;
+    height: auto;
+    width: 80%;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-left :20px ;
+    padding-right :20px ;
+    
+    
+    left : 10% ;
+    border-radius: 10px;
+    margin-top : 60px;
+    
+    
+       }         
+
+.Devquiz {
+     width: 100%;
+     text-align:center;
+     font-size: 30px;
+     font-weight:bold;
+     margin-top:0px;
+     padding-bottom :20px;
+    
+      background-color :rgb(188, 188, 188);
+      height : 80%;
+}
+
+.p1  { 
+
+     padding-top : 10px;
+     font-size :18px;
+     text-align:center;
+    
+     
+
+}
+.p2  { 
+
+     padding-top : 50px;
+     text-align:center;
+     font-size :16px;
+     
+
+}
+
+#ButtonStart
+{
+    width : 80px;
+    border-style:groove;
+    border-color: lightslategray;
+    position:center;
+}
+.questions {
+     font-size : 20px;
+     font-weight:bold;
+     margin-bottom: 30px; 
+     margin-top:20px;
+
+}
+.RBL {
+    margin-bottom : 20px;
+    font-weight:normal;
+    font-size: 15px;
+}
+
+#previousButton, #nextButton, #finishedButton {
+    width : 80px;
+    border-style:groove;
+    border-color: lightslategray;
+    margin-top: 20px;
+    margin-bottom:20px;
+    position:relative;
+    left:80%;
+   
+
+}
+#resultsChart{
+    
+    width:400px;
+    height:300px;
+    /*padding-bottom:80px;*/
+    text-align:center;
+}
+.results{
+
+     text-align: center;
+     font-weight:bold;
+     font-size: 20px;
+     padding : 30px;
+}
+.resultsMessage{
+
+     position:relative;
+     top:10%;
+     font-weight:bold;
+     font-size: 20px;
+     margin-top: 10px;
+     color:blue;
+
+}
+
+.resultsView{
+    text-align:center;
+}
+rowCentered{
+    text-align:center;
+}
+
+.RestartButton{
+    text-align:center;
+    margin-bottom:20px;
+
+}
+
